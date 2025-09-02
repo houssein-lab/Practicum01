@@ -17,7 +17,7 @@ public class PersonReader {
 
             try (BufferedReader reader = Files.newBufferedReader(file)) {
                 System.out.printf("%-8s %-12s %-12s %-8s %-6s%n", "ID#", "Firstname", "Lastname", "Title", "YOB");
-                System.out.println("====================================================");
+                System.out.println("");
 
                 String line;
                 while ((line = reader.readLine()) != null) {
